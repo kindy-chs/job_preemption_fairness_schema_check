@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "kindy-chs-realtimedw_jd482"
+name = "kindy-chs-job_preemption_fairness_schema_check"
 version = "0.1.0"
 description = "从样本里推断实时数仓架构师·作业抢占与调度公平性应有的字段集合，逐字段检查存在性与类型，缺失项单独列出"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://kindy-chs.github.io"
-Repository = "https://github.com/kindy-chs/realtimedw_jd482"
-Issues = "https://github.com/kindy-chs/realtimedw_jd482/issues"
+Repository = "https://github.com/kindy-chs/job_preemption_fairness_schema_check"
+Issues = "https://github.com/kindy-chs/job_preemption_fairness_schema_check/issues"
 
 [project.scripts]
-realtimedw_jd482 = "realtimedw_jd482:main"
+job_preemption_fairness_schema_check = "job_preemption_fairness_schema_check:main"
 
 [tool.setuptools]
-py-modules = ["realtimedw_jd482"]
+py-modules = ["job_preemption_fairness_schema_check"]
